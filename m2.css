@@ -1,0 +1,198 @@
+html {
+  scroll-behavior: smooth; /* smooth scroll between sections */
+}
+
+
+
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* Center all content by default */
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  /* Bones background */
+  background-image: url("bone\ background.jpg");
+  background-repeat: repeat;                 /* repeat the image to cover the whole page */
+  background-size: 150px 150px;             /* adjust size of bones */
+  background-attachment: fixed;             /* keeps it in place while scrolling */
+}
+
+
+/* Each section takes full width and has padding */
+section {
+  width: 100%;
+  padding: 60px 20px;
+  box-sizing: border-box;
+    scroll-margin-top: 80px;
+
+}
+
+/* About Section */
+#about {
+  background-color: #d8f3dc; /* soft green */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+    position: sticky;
+}
+
+.about-image {
+  width: 280px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Fun Section */
+#interactive {
+  background-color:  #b8f2e6; /* Mint green */
+  text-align: center;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #fef9c7; /* Light yellow */
+  text-align: center;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form input[type="submit"] {
+  background-color: #2d3142;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+  background-color: #4f5d75;
+}
+
+
+
+/* Footer */
+footer {
+  background-color: #2c2c2c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navigation Styling */
+
+.navbar a:hover {
+    background-color: paleturquoise;
+    color: black;
+
+}
+
+/* -------- Navigation Bar -------- */
+.navbar {
+
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.navbar a {
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+ 
+
+nav ul li {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 15px;
+    cursor: pointer
+}
+
+/* Main heading */
+h1 {
+    margin-top: 50px;
+    font-size: 36px;
+    letter-spacing: 11px;
+    justify-content:center;
+}
+
+/* Section layout */
+section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+
+
+
+
+
+
+
+
+/* Image Styling */
+img {
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Paragraph Styling */
+p {
+    line-height: 20px;
+}
+
+/* Subheading */
+h2 {
+    margin-top: 20px;
+
+
+
+    
+}
+
+/* Footer */
+footer {
+  background-color: #2d3142;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
