@@ -16,7 +16,7 @@ let currentColor = 0;
 
   // Loop through colors // array (blue to yellow)
                     //0             1
-  const colors = ["lightblue", "lightyellow", "lightblue"]; // color array 2 colours 
+  const colors = ["lightblue", "lightyellow"]; // color array 2 colours 
   function changeBackground() { //triggered by a click button
   currentColor = (currentColor + 1) % colors.length; // moves to the next color, and goes back to the first color after the last one.
   document.body.style.backgroundColor = colors[currentColor]; // changes the page’s background.
